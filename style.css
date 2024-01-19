@@ -80,3 +80,23 @@ nav{
 
 
 }
+
+.sliderItem{
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: pink;
+    position:relative;
+
+
+
+}
+
+.sliderTitle{
+    position:absolute;
+    top:10%;
+    right:10%;
+    font-size: 60px;
+    text-align: center;
+}
