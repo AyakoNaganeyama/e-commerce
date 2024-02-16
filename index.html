@@ -5,6 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>e commerce store</title>
     <link rel="stylesheet" href="./style.css" />
+    <style>
+
+.sliderItem:nth-child(1) .sliderBg {
+    background-color: #369e62;
+  }
+
+.sliderItem:nth-child(2) .sliderBg {
+    background-color: rebeccapurple;
+  }
+
+  .sliderItem:nth-child(3) .sliderBg {
+  background-color: teal;
+}
+.sliderItem:nth-child(4) .sliderBg {
+  background-color: cornflowerblue;
+}
+.sliderItem:nth-child(5) .sliderBg {
+  background-color: rgb(124, 115, 80);
+}
+
+.sliderItem:nth-child(1) .sliderPrice {
+  color: #369e62;
+}
+.sliderItem:nth-child(2) .sliderPrice {
+  color: white;
+}
+.sliderItem:nth-child(3) .sliderPrice {
+  color: teal;
+}
+.sliderItem:nth-child(4) .sliderPrice {
+  color: cornflowerblue;
+}
+.sliderItem:nth-child(5) .sliderPrice {
+  color: cornsilk;
+}
+
+
+    </style>
   </head>
   <body>
     <nav>
@@ -42,12 +80,16 @@
 
     <div class="slider">
       <div class="sliderWrapper">
+
+
         <div class="sliderItem">
           <img src="./img/air.png" alt="air" class="sliderImg" />
           <div class="sliderBg"></div>
           <h1 class="sliderTitle">AIR FORCE <br />New<br />Season</h1>
           <h2 class="sliderPrice">$119</h2>
-          <button id="buyButton">Buy</button>
+          <a href="#product">
+          <button class="buyButton">Buy Now!</button>
+          </a>
         </div>
         <div class="sliderItem">
           <img src="./img/air.png" alt="" class="sliderImg">
@@ -56,7 +98,8 @@
           <h2 class="sliderPrice">$149</h2>
           <a href="#product">
               <button class="buyButton">BUY NOW!</button>
-          </a>
+              </a>
+        
       </div>
       <div class="sliderItem">
           <img src="./img/air.png" alt="" class="sliderImg">
@@ -74,7 +117,8 @@
           <h2 class="sliderPrice">$129</h2>
           <a href="#product">
               <button class="buyButton">BUY NOW!</button>
-          </a>
+              </a>
+        
       </div>
       <div class="sliderItem">
           <img src="./img/air.png" alt="" class="sliderImg">
@@ -87,5 +131,6 @@
       </div>
       </div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
